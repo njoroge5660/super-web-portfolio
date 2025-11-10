@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal POrtfolio Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="tt1.jpg">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack <span>DEVELOPER</span></p>
+                <h1>Hi, I'm <span> SIMON NJOROGE </span><br>from Nairobi, <span>KENYA</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="h_121.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>A collaborative Full Stack Developer focused on creating intuitive and engaging user experiences rooted in user research and data-driven insights. I Design a responsive e-commerce website that improveS conversion rates by 20% through
+                        iterative prototyping and usability testing with target users. Map user journeys and identifY key pain points to strategically simplify a complex we onboarding process.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Software Development</span><br>Building Reliable Softwares</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Software Engineering Training at Karatina University</li>
+                            <li><span>2023 - 2025</span><br>Web App Development</li>
+                            <li><span>2022 - 2023</span><br>Developing Softwares</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>UI/UX Design Training at Karatina University</li>
+                            <li><span>2021 - 2022</span><br>Computer Training Basics</li>
+                            <li><span>2017 - 2021</span><br>KIPIPIRI SCHOOL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>I offer the web Design solutions for your desired websites,either business,personal portfolios or even institutional websites.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>I design layouts and interactive elements ensuring users have a smooth and enjoyable experience while navigating websites or apps.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>I Builds, Designs and maintains application programs combining logic and creativity to turn ideas into functional softwares.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="no3.jpg" alt="">
+                    <div class="layer">
+                        <h3>E-COMMERCE WEBSITE</h3>
+                        <p>The websites helps customers to acquire items online without the need of moving to the shop itself.
+                        </p>
+                        <a href="#"><i class=""></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="no2.jpg" alt="">
+                    <div class="layer">
+                        <h3>SCHOOL MANAGEMENT SOFTWARE</h3>
+                        <p>The software helps the school to combine different departments Xfor easy management.
+                        </p>
+                        <a href="#"><i class=""></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="no1.jpg" alt="">
+                    <div class="layer">
+                        <h3>COMPANY WEB APP</h3>
+                        <p>The app helps the company to monitor and mange all of its activities productively.
+                        </p>
+                        <a href="#"><i class=""></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>njorogesaimon076@gmail.com</p>
+                    <p>+254115485745</p>
+                    <div class="social-icons">
+                    </div>
+                    <button><a href="MY CV1.docx" download class="btn">Download CV</a></button>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright (C) Njoroge. Made by LONJFY</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwDjmRG_Q3hKNhVADKyhRVSj4HUsOFDHVQmNp5lYtmohISVB7Fw1ZCYTwp4vZycosNg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
