@@ -6,8 +6,9 @@
 }
 
 body{
-background:red;
-}
+    background: #080808;
+    color: #fff;
+    }
 
 #header {
     width: 100%;
@@ -350,5 +351,6 @@ form .btn {
     display: block;
 
 }
+
 
 
