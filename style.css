@@ -5,9 +5,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #080808;
-    color: #fff;
+body{
+background:red;
 }
 
 #header {
@@ -351,4 +350,5 @@ form .btn {
     display: block;
 
 }
+
 
