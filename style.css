@@ -13,7 +13,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(sc1.png);
+    background-image: url(img14.png.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -349,4 +349,5 @@ form .btn {
 #msg {
     color: #db4646;
     display: block;
+
 }
